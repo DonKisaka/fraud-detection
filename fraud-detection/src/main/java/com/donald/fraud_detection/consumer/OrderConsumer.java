@@ -1,6 +1,7 @@
 package com.donald.fraud_detection.consumer;
 
 import com.donald.fraud_detection.model.OrderEvent;
+import com.donald.fraud_detection.service.FraudDetectionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
